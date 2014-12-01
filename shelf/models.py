@@ -15,5 +15,4 @@ class Book(models.Model):
     author = models.ForeignKey(Author)
     isbn = models.CharField(max_length=17)
     publisher = models.ForeignKey(Publisher)
-    
  
