@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from django.contrib import admin
 
-from models import Author, Publisher, Book
+from .models import Author, Publisher, Book
 
 
 class AuthorAdmin(admin.ModelAdmin):
