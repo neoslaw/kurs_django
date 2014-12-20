@@ -38,6 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'shelf',
     'contact',
+    'rental',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -70,7 +71,7 @@ DATABASES = {
 
 LANGUAGE_CODE = 'pl'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Europe/Warsaw'
 
 USE_I18N = True
 
