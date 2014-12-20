@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from django.contrib import admin
 
-from .models import Author, Publisher, Book
+from .models import Author, Publisher, Book, BookCategory
 
 
 class AuthorAdmin(admin.ModelAdmin):
@@ -18,3 +18,4 @@ class BookAdmin(admin.ModelAdmin):
 admin.site.register(Book, BookAdmin)
 admin.site.register(Author, AuthorAdmin)
 admin.site.register(Publisher)
+admin.site.register(BookCategory)
